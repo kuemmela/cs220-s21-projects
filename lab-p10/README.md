@@ -33,8 +33,6 @@ we go along.
 * **Path:** a more-complete name that tells you the file name AND what directory it is in.  For example, `p8/main.ipynb` and `p9/main.ipynb` are examples of path names on a Mac, referring to a file named `main.ipynb` in the `p8` directory and a second file with the same name in the `p9` directory, respectively.  Windows uses back-slashes instead of forward slashes, so on a Windows laptop the paths would be `p8\main.ipynb` and `p9\main.ipynb`.  There may be more levels in a path to represent more levels of directories.  For example, `courses\cs220\p8\test.py` refers to the `test.py` file in the `p8` directory, which is in the `cs220` directory, which is in the `courses` directory.
 
 
-*TAs:  Make sure to illustrate the difference between absolute and relative paths because it is required for P10*
-
 In Python, there's no special type for file names or paths; we just
 use regular strings instead.
 
@@ -74,8 +72,6 @@ Do you see the `fruit` directory this time?
 Now click `Restart & Run All` from the `Kernel` menu.  Do you notice
 that there's an exception in the cell where you created the `fruit`
 directory?
-
-*TAs:  Ask the students to explain what caused the exception.*
 
 
 There are two options for doing the `mkdir` in a way that won't cause
@@ -149,8 +145,6 @@ What does `fruit_message("apple")` return?  (try it!)
 
 Try the other fruits too.
 
-*TAs: Ask the students to try fruits that do not exist. Modify `fruit_message` so it returns "bad fruit" in that scenario.  Use the `mkdir` example from earlier for
-inspiration.*
 
 ### JSON
 
@@ -168,7 +162,6 @@ see how to make this a one-step process):
 Let's try it:
 
 
-*TAs: Allow students 2 minutes to just read the code*
 
 ```python
 # Python structures
@@ -200,8 +193,6 @@ Try it!
 Replace the `????` in the fruits list to include fruits you like, and replace the `????` in the `os.path.join()` function call, to save the fruits in a file called `fruit.json`.
 
 
-*TAs: Allow students 2 minutes to just read the code.
-Ask for suggestions about what to replace each `????` with.*
 
 ```python
 # Python structures
